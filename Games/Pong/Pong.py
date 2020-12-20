@@ -216,7 +216,7 @@ def gameplay(score_a, score_b):
         #it begin from 0, +400 to right, -400 to left.
         #set right and left borders. That means Computer scored. update the scoreboard
         if ball.xcor() > 390:
-            ball.goto(0, 0) #ball moves onto 0
+            ball.goto(0, 0) #ball moves into 0
             ball.dx *= -1
             score_a += 1
             a = 1
@@ -226,7 +226,7 @@ def gameplay(score_a, score_b):
 
         # set left border. That means Player B scored. update the scoreboard
         if ball.xcor() < -390:
-            ball.goto(0, 0)  # ball moves onto 0
+            ball.goto(0, 0)  # ball moves into 0
             ball.dx *= -1
             score_b += 1
             a = 0
@@ -247,7 +247,7 @@ def gameplay(score_a, score_b):
             ball.dx *= -1
             winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
 
-        #while ball is not at x = -173, paddle_A will not move. if x < -173, paddle_A will move into ball. If it can not touch the ball, player scores.
+        #while ball is not at x = -173, paddle_A will not move. if x < -173, paddle_A will move onto ball. If it can not touch the ball, player scores.
         #if let the paddle move while x > -173, paddle will catch the ball everytime so player can not score
         #or we can let paddle move slower but this time, everytime that the ball bounces from the borders, paddle can not catch the ball.
         #so I think something like that.
