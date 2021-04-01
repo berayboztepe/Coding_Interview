@@ -10,3 +10,6 @@
 
 
 -And a pong game with using Turtle lib in Python
+
+
+-Solutions for HackerRank code examples
