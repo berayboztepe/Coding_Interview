@@ -19,7 +19,7 @@
 
 -And this is the result of the testing:
 
-![](2.png)
+![](2.PNG)
 
 -This is another testing for the Elon Musk's photo. Trained photo:
 
@@ -27,4 +27,4 @@
 
 -And the result:
 
-![](1.png)
+![](1.PNG)
