@@ -48,10 +48,10 @@ def main():
             get_names.append(name)
             # to draw a rectangle to the face with the help of face locations. Then add the name below the rectangle
             for (top, right, bottom, left), name in zip(face_locat, get_names):
-                cv2.rectangle(im, (left - 50, top - 20), (right + 20, bottom + 20), (255, 0, 0), 2)
-
-                cv2.rectangle(im, (left - 50, bottom - 15), (right + 20, bottom + 20), (255, 0, 0), cv2.FILLED)
-                cv2.putText(im, name, (left - 50, bottom + 15), cv2.FONT_HERSHEY_DUPLEX, 1.0, (255, 255, 255), 2)
+                cv2.rectangle(im, (left - 50, top - 20), (right + 50, bottom + 20), (255, 0, 0), 2)
+                cv2.rectangle(im, (left - 50, bottom - 15), (right + 50, bottom + 20), (255, 0, 0), cv2.FILLED)
+                cv2.putText(im, name.upper(), (((left + right - 100 - len(name)) // 2), (bottom + 10)),
+                            cv2.FONT_HERSHEY_PLAIN, 1.0, (255, 255, 255), 2)
 
         while True:
             cv2.imshow('Photo_Detector', im)
