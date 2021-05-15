@@ -16,3 +16,15 @@
 -This is the picture of Donald Trump that I've used for training the model:
 
 ![](faces/donald%20trump.jpg)
+
+-And this is the result of the testing:
+
+![](2.png)
+
+-This is another testing for the Elon Musk's photo. Trained photo:
+
+![](faces/elon%20musk.jpg)
+
+-And the result:
+
+![](1.png)
