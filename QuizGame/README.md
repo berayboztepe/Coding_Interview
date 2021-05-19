@@ -1,4 +1,4 @@
-This is a basic quiz application with using GUI.
+This is a very basic quiz application with using GUI.
 
 The goal is to answer the questions. Questions are about the songs and answers are about the music groups.
 
