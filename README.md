@@ -1,12 +1,12 @@
 # Examples
 
--Examples of Project Euler and Daily Coding Problem questions.
+-Examples of Project Euler, Daily Coding and HackerRank Problem questions.
 
 
 -Face recog codes that I wrote with using face_recog library in Python.
 
 
--And a pong game with using Turtle lib in Python
+-A pong game with using Turtle lib in Python
 
 
--Solutions for HackerRank code examples
+-Simple quiz game created with Java GUI
