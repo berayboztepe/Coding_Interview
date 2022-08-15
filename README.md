@@ -1,12 +1,5 @@
 # Examples
 
--Examples of Project Euler, Daily Coding and HackerRank Problem questions.
+- There are some answers of questions from specific interview web sites such as Daily Coding Problem, HackerRank and Project Euler.
 
-
--Face recog codes that I wrote with using face_recog library in Python.
-
-
--A pong game with using Turtle lib in Python
-
-
--Simple quiz game created with Java GUI
+- I am at the rank of 13272 in Python programming language among 2099341 persons and I've solved 104/115 challenges.
